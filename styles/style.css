@@ -1,0 +1,42 @@
+body {
+    background-color:rgba(0, 0, 0, 0.452);
+}
+
+.show {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    font-size: 23px;
+}
+
+::placeholder {
+    color: red;
+}
+
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.card {
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+#swipe {
+    position: relative;
+    top: 100px;
+    transform: translateY(-200%);
+    -webkit-transform: translateY(-200%);
+    -moz-transform: translateY(-200%);
+    -ms-transform: translateY(-200%);
+    -o-transform: translateY(-200%);
+}
